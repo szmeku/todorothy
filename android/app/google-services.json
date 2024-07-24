@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "459790207725",
+    "project_id": "to-do-rothy-fz31bp",
+    "storage_bucket": "to-do-rothy-fz31bp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459790207725:android:3eb863f7ba28f884c05ae4",
+        "android_client_info": {
+          "package_name": "com.mycompany.todorothy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459790207725-dvbucnbs6rsajueakp09ges2f9f5al5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.todorothy",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "459790207725-h432n5tnfq4qnac1havqpmjrbvokmoke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtU55NT_8_zBe5OOurZKLiaVeDECk091Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459790207725-h432n5tnfq4qnac1havqpmjrbvokmoke.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "459790207725-h3kfe9upsfvo31p3f6meef6clb5a43mb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.todorothy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
