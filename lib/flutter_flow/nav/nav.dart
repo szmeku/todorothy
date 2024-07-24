@@ -94,7 +94,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'updateTask',
           path: '/updateTask',
-          requireAuth: true,
           builder: (context, params) => UpdateTaskWidget(
             taskRef: params.getParam(
               'taskRef',
