@@ -88,6 +88,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'tasksList',
           path: '/tasksList',
+          requireAuth: true,
           builder: (context, params) => const TasksListWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
