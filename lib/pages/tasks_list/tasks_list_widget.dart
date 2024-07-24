@@ -240,7 +240,7 @@ class _TasksListWidgetState extends State<TasksListWidget> {
                                                   .fromSTEB(
                                                       12.0, 0.0, 12.0, 0.0),
                                               child: Text(
-                                                '',
+                                                listViewTasksRecord.description,
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyLarge
