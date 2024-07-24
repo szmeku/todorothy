@@ -102,6 +102,12 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               collectionNamePath: ['tasks'],
             ),
           ),
+        ),
+        FFRoute(
+          name: 'beers',
+          path: '/beers',
+          requireAuth: true,
+          builder: (context, params) => const BeersWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
